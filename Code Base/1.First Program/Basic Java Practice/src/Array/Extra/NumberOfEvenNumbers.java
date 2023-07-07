@@ -1,4 +1,4 @@
-package Array;
+package Array.Extra;
 
 public class NumberOfEvenNumbers {
     public static void main(String[] args) {

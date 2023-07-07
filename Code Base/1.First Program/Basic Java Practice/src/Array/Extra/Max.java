@@ -1,4 +1,4 @@
-package Array;
+package Array.Extra;
 
 public class Max {
     public static void main(String[] args) {

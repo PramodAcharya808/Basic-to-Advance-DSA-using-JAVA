@@ -1,11 +1,11 @@
-package Array;
+package Array.Extra;
 
 public class MaxWealth {
     public static void main(String[] args) {
         int[][] bank = {
-                {1,2,3},
-                {4,5,6},
-                {7,8,9,6}
+                {1,2,3},  //1st person
+                {4,5,6},  //2nd person
+                {7,8,9,6} //3rd person
         };
 
         int sum, rich=0;
