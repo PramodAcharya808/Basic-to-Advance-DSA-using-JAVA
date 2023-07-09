@@ -4,7 +4,7 @@ which is greater than or equal to the TARGET element.
 
 Ex: arr = [2,3,4,6,9,15,79]
     target = 7
-    elements greater than target are 9, 15, 79
+    Candidates = [9,15,79]
     The smallest element which is greater or equal to the Target element is ==== 9
 */
 
@@ -21,9 +21,8 @@ public class CeilingNumber {
     public static int Ceil(int[] arr1, int key){
         int start = 0;
         int end = arr1.length;
-        int mid;
         while(start <= end){
-            mid = (start+end)/2;
+           int mid = (start+end)/2;
 
             if (arr1[mid]>key){
                 end = mid-1;
