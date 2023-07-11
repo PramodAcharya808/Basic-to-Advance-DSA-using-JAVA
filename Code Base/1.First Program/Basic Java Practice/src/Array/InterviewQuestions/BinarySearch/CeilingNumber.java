@@ -13,7 +13,7 @@ package Array.InterviewQuestions.BinarySearch;
 public class CeilingNumber {
     public static void main(String[] args){
         int[] arr = {1,3,5,8,10,15,17,19,38};
-        int key = 11;
+        int key = 101;
         int ans = Ceil(arr,key);
         System.out.println("The Ceiling of "+key+" in the given array is "+ans);
     }
@@ -21,6 +21,12 @@ public class CeilingNumber {
     public static int Ceil(int[] arr1, int key){
         int start = 0;
         int end = arr1.length-1;
+
+//        If the Key element is greater than the greatest of all the element in the array
+        if(key > arr1.length-1){
+            return -1;
+        }
+
         while(start <= end){
            int mid = (start+end)/2;
 
