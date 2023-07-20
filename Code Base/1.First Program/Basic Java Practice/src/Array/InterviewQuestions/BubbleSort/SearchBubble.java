@@ -14,7 +14,8 @@ public class SearchBubble {
         //Counter variable to reduce the sort space in every iteration
         for (int i=0; i<arr.length ; i++){
             swapped = false;
-            for (int j=1 ; j <arr.length-i ; j++){
+            for (int j=1 ; j <arr.length-i ; j++)
+            {
                 swapped = true;
                 if(arr[j] < arr[j-1]){
                     temp = arr[j];
@@ -22,6 +23,8 @@ public class SearchBubble {
                     arr[j-1] = temp;
                 }
             }
+            if(!swapped)
+                break;
         }
     }
 }
