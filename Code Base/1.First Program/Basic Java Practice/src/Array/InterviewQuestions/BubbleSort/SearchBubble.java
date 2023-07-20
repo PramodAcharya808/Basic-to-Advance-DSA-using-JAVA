@@ -23,6 +23,7 @@ public class SearchBubble {
                     arr[j-1] = temp;
                 }
             }
+//            It is used to stop the iteration in which the array is already sorted
             if(!swapped)
                 break;
         }
