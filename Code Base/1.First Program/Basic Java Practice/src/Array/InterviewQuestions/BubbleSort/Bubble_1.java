@@ -17,7 +17,7 @@ public class Bubble_1 {
             for (int j=i+1 ; j < arr.length-i ; j++){
                 if (arr[j] < arr[j-1]){
                     temp = arr[j];
-                    
+                    arr[j] = arr[j-1];
                 }
             }
         }
