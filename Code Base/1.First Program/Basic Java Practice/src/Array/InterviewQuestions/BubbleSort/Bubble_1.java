@@ -11,5 +11,5 @@ public class Bubble_1 {
         System.out.println(Arrays.toString(arr));
     }
 
-    p
+    public
 }
