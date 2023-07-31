@@ -14,7 +14,7 @@ public class Bubble_1 {
     public static void BubbleSort (int[] arr){
         int temp;
         for (int i=0 ; i<arr.length ; i++){
-            for (){
+            for (int j=){
         }
     }
 }
