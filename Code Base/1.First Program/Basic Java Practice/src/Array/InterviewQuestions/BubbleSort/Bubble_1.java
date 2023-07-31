@@ -12,7 +12,6 @@ public class Bubble_1 {
     }
 
     public static void BubbleSort (int[] arr){
-
         
     }
 }
