@@ -10,6 +10,16 @@ public class Selection_Sort {
     }
 
     public static void Sort(int[] arr){
-        
+        for(int i=0 ; i<arr.length ; i++){
+            int last_index = arr.length-1-i;
+            int max_index = GetMax(arr, last_index);
+        }
+    }
+
+    public static int GetMax(int[] arr, int last_index){
+        int max_index = 0;
+        for (int i=0 ; i<=last_index ; i++){
+            
+        }
     }
 }
