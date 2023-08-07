@@ -8,6 +8,7 @@ public class Selection_Sort {
 
     public static void Sort(int[] arr){
         for (int i=0; i<arr.length ;i++){
+            int last = arr.length -1 -i;
             int max= getmax(arr, last );
         }
     }
