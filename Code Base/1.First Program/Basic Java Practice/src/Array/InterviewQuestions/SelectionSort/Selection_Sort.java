@@ -10,8 +10,9 @@ public class Selection_Sort {
         for (int i=0; i<arr.length ;i++){
             int last = arr.length -1 -i;
             int max= getmax(arr, last );
+
             //swap the max element to the last index of this array range
-            
+
         }
    }
 
