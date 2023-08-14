@@ -22,7 +22,7 @@ public class p2 {
     public static int GetMax(int[] arr, int start, int end){
         int maxindex=0;
         for (int i = start; i<=end; i++){
-            if(arr[i] > maxindex)
+            if(arr[i] > arr[maxindex])
                 maxindex = i;
         }
         return maxindex;
