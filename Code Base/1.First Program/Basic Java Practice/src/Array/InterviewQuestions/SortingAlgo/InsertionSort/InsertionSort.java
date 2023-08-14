@@ -10,6 +10,9 @@ public class InsertionSort {
     }
 
     public static void Sort(int[] arr){
-        
+        for (int  i=0 ; i<=arr.length-2 ; i++){
+            for
+                
+        }
     }
 }
