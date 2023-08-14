@@ -9,7 +9,7 @@ EX: arr=[1,3,5,8,9,12,34,456,789]
     Floor = 34
     * */
 
-package Array.InterviewQuestions.BinarySearch;
+package Array.InterviewQuestions.SearchingAlgo.BinarySearch;
 public class FloorNumber {
     public static void main(String[] args) {
         int[] arr = {1,4,7,15,17,19,28,29,49,68,70};

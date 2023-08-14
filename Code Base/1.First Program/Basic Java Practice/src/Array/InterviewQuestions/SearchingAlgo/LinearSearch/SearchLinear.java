@@ -1,4 +1,4 @@
-package Array.InterviewQuestions.LinearSearch;
+package Array.InterviewQuestions.SearchingAlgo.LinearSearch;
 
 public class SearchLinear {
     public static void main(String[] args){

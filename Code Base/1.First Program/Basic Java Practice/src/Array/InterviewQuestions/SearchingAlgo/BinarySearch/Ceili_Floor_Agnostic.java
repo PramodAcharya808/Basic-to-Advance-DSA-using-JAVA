@@ -5,7 +5,7 @@ Problem Description:
     > Find Ceiling and floor from the given array
 * */
 
-package Array.InterviewQuestions.BinarySearch;
+package Array.InterviewQuestions.SearchingAlgo.BinarySearch;
 import java.util.Scanner;
 public class Ceili_Floor_Agnostic {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Array.InterviewQuestions.BinarySearch;
+package Array.InterviewQuestions.SearchingAlgo.BinarySearch;
 
 
 //Ceiling of a number using Binary Search

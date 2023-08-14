@@ -8,7 +8,7 @@ Ex: arr = [2,3,4,6,9,15,79]
     The smallest element which is greater or equal to the Target element is ==== 9
 */
 
-package Array.InterviewQuestions.BinarySearch;
+package Array.InterviewQuestions.SearchingAlgo.BinarySearch;
 
 public class CeilingNumber {
     public static void main(String[] args){
