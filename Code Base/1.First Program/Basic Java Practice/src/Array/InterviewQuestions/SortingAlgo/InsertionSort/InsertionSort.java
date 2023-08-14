@@ -11,7 +11,9 @@ public class InsertionSort {
 
     public static void Sort(int[] arr){
         for (int  i=0 ; i<=arr.length-2 ; i++){
-            for ()
+            for (int j=i+1 ; j>0 ; j++){
+                
+            }
         }
     }
 }
