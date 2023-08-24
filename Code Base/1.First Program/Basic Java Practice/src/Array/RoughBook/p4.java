@@ -16,10 +16,10 @@ public class p4 {
     }
 
     private static void Insertion_sort(int[] arr) {
-        for(int i=0 ;i<arr.length ; i++){
-            for (int j=i+1 ; j<0 ; j--){
+        for(int i=0 ;i<=arr.length-2 ; i++){
+            for (int j=i+1 ; j>0 ; j--){
                 if(arr[j] < arr[j-1])
-                    
+                    Swap(arr, j, j-1);
             }
         }
     }
