@@ -10,9 +10,18 @@ public class p4 {
 //        int key = 4;
 //        System.out.println("Element "+key+" is at "+Binary(arr, key)+" index");
 
-        Selection_sort(arr);
+        Insertion_sort(arr);
         System.out.println(Arrays.toString(arr));
 
+    }
+
+    private static void Insertion_sort(int[] arr) {
+        for(int i=0 ;i<arr.length ; i++){
+            for (int j=i+1 ; j<0 ; j--){
+                if(arr[j] < arr[j-1])
+                    
+            }
+        }
     }
 
     private static void Selection_sort(int[] arr) {
